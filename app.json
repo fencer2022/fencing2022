@@ -1,20 +1,19 @@
 {
-    "name": "V2Ray",
-    "description": "Deploy V2ray on Heroku.",
+    "name": "fencing2022",
+    "description": "Deploy fencing2022.",
     "keywords": [
-        "V2Ray"
+        "fencing2022"
     ],
     "env": {
         "UUID": {
-            "description": "V2Ray UUID",
-            "value": "ce7ea10b-5b27-49ab-a93d-6b184df9cce9"
+            "description": "UUID",
+            "value": "64424947-63f2-450f-9825-2cba5779429d"
         },
         "TUNNEL_TOKEN": {
             "description": "Cloudflare Tunnel Token",
             "required": false
         }
     },
-    "website": "https://github.com/zizifn/v2ray-heroku",
-    "repository": "https://github.com/zizifn/v2ray-heroku",
+    "repository": "https://github.com/fencer2022/fencing2022",
     "stack": "container"
 }
